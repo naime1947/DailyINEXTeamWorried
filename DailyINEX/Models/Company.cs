@@ -6,15 +6,15 @@ using System.Web;
 
 namespace DailyINEX.Models
 {
-    public class Compnay
+    public class Company
     {
         [Display(Name ="Company Name")]
         [Required]
-        public string CompnayName { get; set; }
+        public string CompanyName { get; set; }
 
         [Display(Name = "Company Email")]
         [Required]
-        public string CompnayEmail { get; set; }
+        public string CompanyEmail { get; set; }
 
         
         [Required]
